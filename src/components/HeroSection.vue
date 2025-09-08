@@ -6,7 +6,7 @@
     <section id="hero"
         class="flex gap-4 items-end justify-center min-h-[calc(100vh-200px)]">
         <div class="fixed top-0 left-0 w-full z-0">
-            <img src="/dami-photo.jpg" alt="Profile Picture" class="w-full h-[100vh] object-cover shadow-lg" />
+            <img src="/bg-dami.jpg" alt="Profile Picture" class="w-full h-[100vh] object-cover object-[50%_50%] shadow-lg" />
         </div>
         <div class="relative z-2 flex flex-col items-center space-y-4 px-4">
             <h1 class="text-white text-4xl md:text-5xl font-bold">Hi, I'm <span class="text-primary">Dami Gases</span></h1>
