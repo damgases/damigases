@@ -9,6 +9,7 @@ import HeroSection from '@/components/HeroSection.vue';
 import { Button } from "@/components/ui/button";
 import { ChevronDownIcon, UserIcon, PencilRulerIcon } from 'lucide-vue-next';
 import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, MenubarTrigger } from "@/components/ui/menubar";
+
 </script>
 
 <template>
@@ -16,12 +17,12 @@ import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, Me
   <Menubar class="fixed top-0 right-0 left-0 z-10 !bg-black/50 !border-0 !h-18 !rounded-none">
     <div class="flex items-center justify-center gap-2 md:gap-4 h-18 w-full">
       <a href="#about">
-          <Button type="button" variant="default" size="lg" class="bg-red-700 hover:bg-red-800 text-base"><UserIcon/> About Me</Button>
+          <Button type="button" variant="outline" size="lg" class="text-base"><UserIcon/> About Me</Button>
       </a>
       <MenubarMenu>
-        <MenubarTrigger as-child><Button type="button" variant="outline" size="lg" class="border-red-700 text-red-700 hover:bg-red-50 text-base"><PencilRulerIcon/> My Projects <ChevronDownIcon /></Button></MenubarTrigger>
+        <MenubarTrigger as-child><Button type="button" variant="default" size="lg" class="text-base"><PencilRulerIcon/> My Projects <ChevronDownIcon /></Button></MenubarTrigger>
         <MenubarContent>
-          <MenubarItem as="a" href="#latest_projects" rel="noopener noreferrer" class="text-red-700">Latest Projects</MenubarItem>
+          <MenubarItem as="a" href="#latest_projects" rel="noopener noreferrer" class="text-white bg-primary">Latest Projects</MenubarItem>
           <MenubarSeparator />
           
           <MenubarItem as="a" href="#legacy_projects" rel="noopener noreferrer">Legacy Projects</MenubarItem>
@@ -35,7 +36,7 @@ import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, Me
   <HeroSection />
   <br id="latest_projects"><br></br>
 
-  <div id="projects" class="relative z-3 bg-background p-4 md:p-6 rounded-xl">
+  <div id="projects" class="relative z-3 bg-background p-4 md:px-6 md:py-10 rounded-xl">
     <LatestProjects />
     <br id="legacy_projects"><br></br>
     <LegacyProjects />

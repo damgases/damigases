@@ -9,9 +9,9 @@
             <img src="/dami-photo.jpg" alt="Profile Picture" class="w-full h-[100vh] object-cover shadow-lg" />
         </div>
         <div class="relative z-2 flex flex-col items-center space-y-4 px-4">
-            <h1 class="text-4xl md:text-5xl font-bold invert">Hi, I'm <span class="text-red-700 invert">Dami Gases</span></h1>
-            <p class="text-lg md:text-xl invert leading-tight">A Web Front-end Designer and Developer</p>
-            
+            <h1 class="text-white text-4xl md:text-5xl font-bold">Hi, I'm <span class="text-primary">Dami Gases</span></h1>
+            <p class="text-white text-lg md:text-xl leading-tight">A Web Front-end Designer and Developer</p>
+
             <!-- <div class="flex space-x-4 mt-4">
                 <a href="https://github.com/damigases" target="_blank" rel="noopener noreferrer">
                     <Button variant="ghost" size="icon">

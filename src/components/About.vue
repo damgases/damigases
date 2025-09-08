@@ -6,7 +6,7 @@ import { DownloadIcon } from 'lucide-vue-next';
 
 <template>
     <TitleSection title="About Me"/>
-    <section class="text-base text-gray-600 md:text-left grid grid-cols-1 md:grid-cols-3 gap-6">       
+    <section class="text-base text-muted-foreground md:text-left grid grid-cols-1 md:grid-cols-3 gap-6">       
 
 			<div class="one-third column space-y-4">
 
@@ -27,7 +27,7 @@ import { DownloadIcon } from 'lucide-vue-next';
 
 				<p>My design for websites focuses on simplicity and user-friendly navigation to help web users. </p>
 
-                <p>So if you have something in mind, send me a message or quote through my e-mail at <a class="text-red-700 hover:underline" href="mailto:dam_gases@yahoo.com">dam_gases@yahoo.com</a>.</p>
+                <p>So if you have something in mind, send me a message or quote through my e-mail at <a class="text-primary hover:underline" href="mailto:dam_gases@yahoo.com">dam_gases@yahoo.com</a>.</p>
 
 				<p class="mt-3"><a href="resume-CV8.pdf" target="_blank" rel="noopener noreferrer"><Button variant="default"><DownloadIcon />Download my CV/Resume</Button></a></p>
 
